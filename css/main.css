@@ -1,0 +1,176 @@
+*
+{
+    color: black;
+    margin: 0;
+    margin: 0;
+}
+body
+{
+    font-family: 'Radio Canada', sans-serif;
+}
+header
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    width: 100%;
+}
+header nav ul
+{
+    list-style: none;
+}
+header nav ul li
+{
+    display: inline-block;
+    padding-left: 30px;
+}
+header a .logo
+{
+    float: left;
+}
+
+header nav
+{
+    float:right;
+}
+header nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0,7s ease-in;
+}
+.marka
+{
+    color: #ffaa00;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: left;
+}
+.marka:hover
+{
+    color: #ffaa00;
+    text-decoration: none;
+}
+header nav ul li a:hover ,header nav ul li a:focus
+{
+    color: #ffaa00;
+    text-decoration: none;
+}
+#mainContent
+{
+    background: url('../images/head3.jpg');
+    
+}
+.mainArea
+{
+    margin-top: 150px;    
+}
+.mainArea h1
+{
+    font-size: 36px;
+    color: #ffaa00;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+.mainArea h2
+{
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.mainArea p
+{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.mainArea .btn-success
+{
+    background-color: #ffaa00;
+    border: none;
+    border-radius: 100%;
+    border-radius: 100px;
+    height: 75px;
+    width: 75px;
+    margin-bottom: 30px;
+}
+#services
+{
+    background-color: #efefef;
+    padding-top: 25px;
+    padding-bottom: 25px;   
+}
+.servicesTop h2
+{
+    margin-top: 30px;
+}
+.servicesTop p
+{
+    margin-bottom: 30px;
+}
+.col-md-3
+{
+    margin-top: 15px;
+}
+#gallery
+{
+    background: url('../images/head3.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#gallery h2
+{
+    color: #fff;
+}
+#contact
+{
+    background-color: #efefef;
+    padding-top: 25pt;
+    padding-bottom: 25px;    
+}
+#location
+{
+    height: 250px;
+    width: 350px;
+}
+form
+{
+    width: 80%;
+    margin: 0 auto;
+}
+input, textarea
+{
+    width: 100%;
+    background-color: #ffaa00;
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: black;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: black;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: black;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: black;
+  }
+#submit
+{
+    background-color: black;
+    color: #ffaa00;
+}
+.contactContent h3
+{
+    margin-top: -5px;
+}
+
+
